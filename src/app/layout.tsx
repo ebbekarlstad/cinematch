@@ -13,7 +13,6 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: 'My App',
-  description: 'A clean slate for a Next.js app',
 };
 
 export default function RootLayout({
