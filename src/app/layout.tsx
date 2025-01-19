@@ -12,18 +12,14 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'My App',
+  title: 'CineMatch - Love at First Scene',
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={inter.variable}>
-      <body className="bg-[#18191A] text-white antialiased font-sans">
-        {children}
+    <html lang="en" className = {inter.variable}>
+      <body className = "bg-[#18191A] text-white antialiased font-sans">
+        {children} {/* Injects page-specific content */}
       </body>
     </html>
   );
