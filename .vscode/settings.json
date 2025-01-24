@@ -1,6 +1,7 @@
 // Workspace settings
 {
-    // Hide files and folders we don't want to touch
+    // Hide files and folders we don't need often,
+    // to avoid unwanted editing or additions to them
     "files.exclude": {
         "node_modules": true,
         ".next": true,
@@ -8,7 +9,7 @@
         "package-lock.json": true,
         "postcss.config.mjs": true,
         "tailwind.config.ts": true,
-        "tailwind.config.js": true,
+        //"tailwind.config.js": true,
         "tsconfig.json": true,
         ".gitignore": true,
         ".prettierrc": true,
