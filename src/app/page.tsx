@@ -3,13 +3,10 @@ import React from "react";
 import Header from "@/components/header";
 import Grid from "@/components/grid";
 import PosterPreview from "@/components/posterprev";
-import Button from "@/components/button";
+import LoginButton from "@/components/LoginLogoutButton";
 
 // Creates the landing page
 function Landing() {
-    const handleButtonClick = () => {
-        console.log("Get Started button clicked!");
-    };
 
     return (
         <div className = "relative min-h-screen overflow-hidden">
@@ -27,7 +24,7 @@ function Landing() {
                 <p className = "pb-14 max-w-xl text-xl text-center italic mx-auto">Discover your <span className={"font-bold"}>next favorite movie</span> in seconds with personalized recommendations across all your favorite streaming services.</p>
                 {/* Get Started Button Component */}
                 <div className="mb-16">
-                    <Button onClick={handleButtonClick}>Get Started</Button>
+                    <LoginButton />
                 </div>
                 {/* Movie Poster Previews */}
                 <div className = "h-sm:hidden bottom-0 bg-white bg-opacity-10 shadow-lg shadow-black/10 backdrop-blur-sm rounded-t-3xl w-2/3 flex justify-center">
