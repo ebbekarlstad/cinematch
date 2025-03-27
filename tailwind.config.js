@@ -20,6 +20,9 @@ module.exports = {
         myblue: '#1E70CD',
         mygold: '#FFC300',
       },
+      backgroundColor: {
+        mygray: '#676767'
+      },
       borderWidth: {
         '1': '1px',
       },
